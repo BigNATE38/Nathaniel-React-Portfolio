@@ -87,3 +87,9 @@ header {
     text-align: left;
     align-items: left;
 }
+
+.the-error {
+  color: red;
+  margin-top: 30px;
+  font-size: 30px;
+}
