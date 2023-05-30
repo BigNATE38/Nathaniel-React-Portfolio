@@ -8,17 +8,18 @@ import Footer from '../Footer';
 import Header from '../Header'; 
 import '../../index.css';
 
+//sets About Me as the default page and allows it to change if one of the other links are clicked 
 export default function Home() {
-    const [currentPage, setCurrentPage] = useState('About Me');
+    const [thecurrentPage, setCurrentPage] = useState('About Me');
 
     const renderPage = () => {
-        if (currentPage === 'Resume') {
+        if (thecurrentPage === 'Resume') {
             return <Resume />;
         }
-        if (currentPage === 'About Me') {
+        if (thecurrentPage === 'About Me') {
             return <About />;
         }
-        if (currentPage === 'Portfolio') {
+        if (thecurrentPage === 'Portfolio') {
             return <Portfolio />;
         }
         return <Contact />;
@@ -26,10 +27,11 @@ export default function Home() {
 
     const handlePageChange = (page) => setCurrentPage(page);
 
+    // Makes sure the header, nav, and footer are on every page 
     return (
         <div>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header thecurrentPage={thecurrentPage} handlePageChange={handlePageChange}/>
+            <Nav thecurrentPage={thecurrentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
         </div>

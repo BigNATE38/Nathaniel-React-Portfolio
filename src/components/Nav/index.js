@@ -1,5 +1,6 @@
 import React from 'react';
 
+// takes in the handlePageChange functionality in order to allow the links to work 
 function Nav ({ handlePageChange }) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light navColor">

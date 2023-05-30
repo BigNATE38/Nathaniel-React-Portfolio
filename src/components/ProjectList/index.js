@@ -1,5 +1,6 @@
 import React from 'react'
 
+// The parameters fill in each component of the project card. This card is exported through project list and used in the portfolio index.js
 const ProjectList =({ name, link, repo, image }) => (
 <div className="allProjects card bg-light mb-3" style={{maxWidth: 25 +'rem', minHeight: 20 +'rem'}}>
     <div className="card-header">{name}</div>

@@ -73,3 +73,5 @@ export default function Resume() {
         </Row>
     );
 }
+
+// All of the icons on this page are from a react package called react-icons
