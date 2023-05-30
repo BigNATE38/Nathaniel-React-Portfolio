@@ -18,6 +18,6 @@ Credit goes to UCI for providing the guidelines for this assignment.
 #
 N/A
 ## Deployment
-(https://drive.google.com/file/d/15wZnrvMLNvweMLo_6XPUOJstBYLlAZ7p/view?usp=sharing)
+(https://bignate38.github.io/Nathaniel-React-Portfolio/)
 ![SiteImage](/src/images/aboutMe.png)
 ![SiteImage](src/images/portfolioPic.png)
