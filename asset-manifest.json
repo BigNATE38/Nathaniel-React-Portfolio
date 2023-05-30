@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nathaniel-React-Portfolio/static/css/main.38ced3c2.css",
+    "main.js": "/Nathaniel-React-Portfolio/static/js/main.e20d5bd5.js",
+    "static/media/movie_mood.png": "/Nathaniel-React-Portfolio/static/media/movie_mood.12e63d4d850c8ca53e10.png",
+    "static/media/headshot.jpg": "/Nathaniel-React-Portfolio/static/media/headshot.283d2efca2a6c7617ad0.jpg",
+    "static/media/horror.png": "/Nathaniel-React-Portfolio/static/media/horror.8f27da5578616bf2a9bc.png",
+    "static/media/weather.png": "/Nathaniel-React-Portfolio/static/media/weather.a13a5ae971fbbc70e273.png",
+    "static/media/Scheduler_Pic.png": "/Nathaniel-React-Portfolio/static/media/Scheduler_Pic.96c74b0b08995c4c513d.png",
+    "static/media/Note-Taker-Pic1.png": "/Nathaniel-React-Portfolio/static/media/Note-Taker-Pic1.d09e0bc96677253aaf82.png",
+    "static/media/techblogdashboard.png": "/Nathaniel-React-Portfolio/static/media/techblogdashboard.79e3eb1a0a1914b7b96c.png",
+    "index.html": "/Nathaniel-React-Portfolio/index.html",
+    "main.38ced3c2.css.map": "/Nathaniel-React-Portfolio/static/css/main.38ced3c2.css.map",
+    "main.e20d5bd5.js.map": "/Nathaniel-React-Portfolio/static/js/main.e20d5bd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ced3c2.css",
+    "static/js/main.e20d5bd5.js"
+  ]
+}
