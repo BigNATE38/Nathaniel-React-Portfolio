@@ -4,7 +4,7 @@ import About from '../About';
 import Contact from '../Contact';
 // import Resume from '../Resume';
 // import Portfolio from '../Portfolio';
-// import Footer from '../Footer';
+import Footer from '../Footer';
 import Header from '../Header'; 
 import '../../index.css';
 
@@ -31,7 +31,7 @@ export default function Home() {
             <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
