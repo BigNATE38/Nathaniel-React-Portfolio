@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Nav from '../Nav';
 import About from '../About';
 import Contact from '../Contact';
-// import Resume from '../Resume';
+import Resume from '../Resume';
 import Portfolio from '../Portfolio';
 import Footer from '../Footer';
 import Header from '../Header'; 
@@ -12,9 +12,9 @@ export default function Home() {
     const [currentPage, setCurrentPage] = useState('About Me');
 
     const renderPage = () => {
-        // if (currentPage === 'Resume') {
-        //     return <Resume />;
-        // }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
         if (currentPage === 'About Me') {
             return <About />;
         }
