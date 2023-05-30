@@ -131,3 +131,7 @@ footer .logos {
   display: flex;
   justify-content: center;
 }
+
+.portfolio-font {
+  padding-top: 1em;
+}

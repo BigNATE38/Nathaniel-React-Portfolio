@@ -3,7 +3,7 @@ import Nav from '../Nav';
 import About from '../About';
 import Contact from '../Contact';
 // import Resume from '../Resume';
-// import Portfolio from '../Portfolio';
+import Portfolio from '../Portfolio';
 import Footer from '../Footer';
 import Header from '../Header'; 
 import '../../index.css';
@@ -18,9 +18,9 @@ export default function Home() {
         if (currentPage === 'About Me') {
             return <About />;
         }
-        // if (currentPage === 'Portfolio') {
-        //     return <Portfolio />;
-        // }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
         return <Contact />;
     };
 
