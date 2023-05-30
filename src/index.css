@@ -134,4 +134,21 @@ footer .logos {
 
 .portfolio-font {
   padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.allProjects a {
+  text-decoration: none;
+  color: grey ;
+  margin: 0.5em ;
+  display: block;
+}
+
+.allProjects a:hover {
+  color: #E9967A ;
+}
+
+.allProjects img {
+  width: 100%;  
+  height: auto;
 }
