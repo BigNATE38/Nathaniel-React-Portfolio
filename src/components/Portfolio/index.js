@@ -57,7 +57,7 @@ const Portfolio = () => (
                 <ProjectList
                     name={'The Tech Blog'}
                     image={techBlog}
-                    link={'https://the-tech-news38.herokuapp.com/'}
+                    link={'https://github.com/BigNATE38'}
                     repo={'https://github.com/BigNATE38/Nathaniel-Tech-Blog'}
                 />
             </Col>
